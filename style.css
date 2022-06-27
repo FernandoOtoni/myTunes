@@ -1,0 +1,270 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'PT Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+.container{
+  background-image: url(/assets/backgroundimage.jpg);
+  background-size:cover;
+  width: 100vw;
+  height: 100vh;
+
+  text-align: center;
+}
+
+header{
+  position: fixed;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  background-color: rgb(78, 78, 78);
+  width: 100%;
+  height: 4%;
+
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.95rem;
+  margin-left: 1rem;
+}
+
+header a:hover{
+  color: rgb(153, 153, 153);
+}
+
+h1{
+  color: white;
+  font-size: 4rem;
+
+  padding-top: 15rem;
+  margin-bottom: 3rem;
+}
+
+.container h3{
+  color: white;
+  font-size: 1.85rem;
+
+  margin-bottom: 2.5rem;
+}
+
+.container div{
+  color: white;
+
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+/* ----------- SECTION 1 ----------- */
+
+.section1{
+  background-color:rgb(60, 60, 60);
+
+  text-align: center;
+  color: white;
+
+  height: 130vh;
+}
+
+.section1 h3{
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.text{
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 500;
+
+  margin-bottom: 2rem;
+}
+
+.title-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 2rem;
+  margin-bottom: 2.5rem;
+  gap: 0.3rem;
+}
+
+.title-icon h2{
+  font-size: 2.5rem;
+}
+
+.title-icon img{
+  width: 50px;
+}
+
+.button{
+  text-decoration: none;
+  padding: 1.2rem 1rem;
+  border-radius: 2px;
+}
+
+.red{
+  color: white;
+  background-color: rgb(182, 17, 17);
+}
+
+.button:hover{
+  background-color: red;
+}
+
+.textimage{
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* ----------- SECTION 2 ----------- */
+
+.section2{
+  text-align: center;
+  color: rgb(52, 52, 52);
+}
+
+.blue{
+  color: white;
+  background-color: rgb(38, 66, 107);
+  display: block;
+  width: 8rem;
+  margin: auto;
+}
+
+.blue:hover{
+  background-color: rgb(48, 81, 131);
+}
+
+.section2 h3{
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+.section2 img{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* ----------- SECTION 3 ----------- */
+
+.section3{
+  text-align: center;
+  background-image: url(/assets/sky-image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-position: center;
+
+  color: white;
+}
+
+.s3container{
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+}
+
+.s3container h3{
+  margin-bottom: 3rem;
+  
+  font-size: 2rem;
+}
+
+/* ----------- SECTION 4 ----------- */
+
+.s4container{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.s4container img{
+  width: 600px;
+}
+
+.s4container h4{
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  margin-top: 3rem;
+}
+
+.s4container a{
+  text-decoration: none;
+  color: rgb(47, 47, 126);
+}
+
+.s4text{
+  color: rgb(44, 44, 44);
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.bar{
+  width: 100%;
+  height: 1px;
+  background-color: rgb(147, 147, 147);
+  margin-bottom: 0.5rem;
+}
+
+/* ----------- SECTION 5 ----------- */
+
+.section5{
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
+.topics{
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.topicscontainer{
+  width: 11%;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.topicscontainer .bar{
+  background-color: rgb(80, 80, 80);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.topicscontainer h4{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.topiclist a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+.topiclist a:hover{
+  color: rgb(200, 200, 200);  
+}
+
+/* ----------- FOOTER ----------- */
+
+footer div{
+  text-align: center;
+  background-color: rgb(53, 53, 53);
+  color: white;
+  padding: 1rem 0;
+}
+
